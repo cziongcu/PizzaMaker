@@ -338,6 +338,7 @@ namespace PizzaMaker
             this.hsbCheese.Name = "hsbCheese";
             this.hsbCheese.Size = new System.Drawing.Size(236, 17);
             this.hsbCheese.TabIndex = 3;
+            this.hsbCheese.ValueChanged += new System.EventHandler(this.HsbExtraGoodiesValueChangedEH);
             // 
             // lblSauce
             // 
@@ -366,6 +367,7 @@ namespace PizzaMaker
             this.hsbSauce.Name = "hsbSauce";
             this.hsbSauce.Size = new System.Drawing.Size(236, 17);
             this.hsbSauce.TabIndex = 0;
+            this.hsbSauce.ValueChanged += new System.EventHandler(this.HsbExtraGoodiesValueChangedEH);
             // 
             // label6
             // 
